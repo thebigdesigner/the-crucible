@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>THE CRUCIBLE | A training ground for young people</title>
+<meta name="description" content="A growth community for youth who want to build themselves and make real impact. Self-building, leadership and impact. This is not church. This is a training ground.">
+<link rel="canonical" href="https://crucible.etienodouglas.online/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0f0f0f">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="THE CRUCIBLE">
+<meta property="og:locale" content="en_GB">
+<meta property="og:url" content="https://crucible.etienodouglas.online/">
+<meta property="og:title" content="THE CRUCIBLE | A training ground for young people">
+<meta property="og:description" content="A growth community for youth who want to build themselves and make real impact. Self-building, leadership and impact. This is not church. This is a training ground.">
+<meta property="og:image" content="https://crucible.etienodouglas.online/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="THE CRUCIBLE: Where pressure becomes progress. A packed hall facing a speaker on stage.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="THE CRUCIBLE | A training ground for young people">
+<meta name="twitter:description" content="A growth community for youth who want to build themselves and make real impact. Self-building, leadership and impact. This is not church. This is a training ground.">
+<meta name="twitter:image" content="https://crucible.etienodouglas.online/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://crucible.etienodouglas.online/#website", "url": "https://crucible.etienodouglas.online/", "name": "THE CRUCIBLE", "inLanguage": "en"}, {"@type": "Organization", "@id": "https://crucible.etienodouglas.online/#org", "name": "THE CRUCIBLE", "alternateName": "F.O.R.G.E: Faithful Ones Raised, Grounded & Equipped", "url": "https://crucible.etienodouglas.online/", "logo": "https://crucible.etienodouglas.online/icon-512.png", "image": "https://crucible.etienodouglas.online/og-image.jpg", "description": "A growth community for youth who want to build themselves and make real impact. Self-building, leadership and impact. This is not church. This is a training ground.", "slogan": "Where pressure becomes progress.", "areaServed": "NG", "founder": {"@type": "Person", "name": "Etieno Douglas", "url": "https://etienodouglas.online/"}}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0f0f0f; --ink-2: #1b1b1b; --paper: #ffffff; --stone: #ecebe8; --stone-2: #e2e0dc; --line: #dedbd5;
+    --grey: #66625c; --muted: #9a958e; --ember: #e8651e; --ember-dark: #c4510f; --ember-deep: #c94f12; --ember-deeper: #ad420e; --ember-text: #a33a0b; --ember-tint: #fdeee4;
+    --r: 14px; --r-lg: 22px;
+    --sans: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Instrument Serif", Georgia, serif;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    color-scheme: light;
+  }
+  /* Brand palette is fixed: both colour schemes share it. */
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --paper: #ffffff; } }
+  :root[data-theme="dark"] { --paper: #ffffff; }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 76px); }
+  body { font-family: var(--sans); font-stretch: 100%; background: var(--paper); color: var(--ink); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  img, svg { display: block; max-width: 100%; }
+  a { color: inherit; text-decoration: none; }
+  button, input, textarea, select { font: inherit; color: inherit; }
+  button { background: none; border: 0; cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; border-radius: 4px; }
+  .wrap { width: min(1200px, 100% - clamp(40px, 8vw, 112px)); margin-inline: auto; }
+  section { padding: clamp(72px, 9vw, 120px) 0; }
+
+  .pill { display: inline-flex; align-items: center; gap: 8px; padding: 5px 14px; border: 1px solid currentColor; border-radius: 999px; font-size: 11.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+  .h-sec { font-weight: 500; font-size: clamp(32px, 3.8vw, 52px); line-height: 1.05; letter-spacing: -.03em; }
+  .lede { color: var(--grey); font-size: 16.5px; max-width: 36em; }
+  .center { text-align: center; }
+  .center .lede { margin-inline: auto; }
+
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 12px 24px; border-radius: 999px; border: 1px solid transparent; font-size: 14.5px; font-weight: 600; white-space: nowrap; transition: background .2s, color .2s, border-color .2s, transform .2s, box-shadow .2s; }
+  .btn svg { width: 15px; height: 15px; transition: transform .25s; }
+  .btn:hover { transform: translateY(-2px); }
+  .btn:hover svg { transform: translate(2px, -2px); }
+  .btn:active { transform: scale(.98); }
+  .btn.ember { background: var(--ember-deep); color: #fff; border-color: var(--ember-deep); }
+  .btn.ember:hover { background: var(--ember-deeper); border-color: var(--ember-deeper); box-shadow: 0 12px 28px rgba(201,79,18,.35); }
+  .btn.ghost-w { color: #fff; border-color: rgba(255,255,255,.45); }
+  .btn.ghost-w:hover { background: #fff; color: var(--ink); }
+  .btn.ink { background: var(--ink); color: #fff; }
+  .btn.ink:hover { background: #2a2a2a; }
+  .btn.white { background: #fff; color: var(--ink); }
+  .btn.white:hover { background: var(--ink); color: #fff; }
+  .btns { display: flex; gap: 10px; flex-wrap: wrap; }
+
+  /* ---------- Header ---------- */
+  .top { position: fixed; top: 0; left: 0; right: 0; z-index: 50; padding-top: env(safe-area-inset-top, 0px); color: #fff; transition: background .35s, color .35s, box-shadow .35s; }
+  .top.solid { background: rgba(255,255,255,.97); color: var(--ink); box-shadow: 0 1px 0 var(--line); }
+  .top .bar { display: flex; align-items: center; justify-content: space-between; gap: 20px; height: 72px; }
+  .logo { display: block; width: 138px; height: 23px; background: currentColor; -webkit-mask: var(--logo) left center / contain no-repeat; mask: var(--logo) left center / contain no-repeat; }
+  .nav { display: flex; align-items: center; gap: clamp(18px, 2.4vw, 32px); }
+  .nav ul { list-style: none; display: flex; gap: clamp(16px, 2.2vw, 30px); }
+  .nav ul a { font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; opacity: .8; transition: opacity .2s; }
+  .nav ul a:hover { opacity: 1; }
+  .nav .btn { min-height: 40px; padding: 8px 18px; font-size: 13px; }
+  .burger { display: none; width: 42px; height: 42px; border-radius: 10px; background: rgba(255,255,255,.12); position: relative; }
+  .top.solid .burger { background: var(--stone); }
+  .burger span { position: absolute; left: 12px; right: 12px; height: 1.5px; background: currentColor; transition: transform .3s, top .3s; }
+  .burger span:first-child { top: 16px; } .burger span:last-child { top: 25px; }
+  .burger[aria-expanded="true"] span:first-child { top: 20.5px; transform: rotate(45deg); }
+  .burger[aria-expanded="true"] span:last-child { top: 20.5px; transform: rotate(-45deg); }
+  .mnav { position: relative; z-index: 2; background: #fff; color: var(--ink); border-top: 1px solid var(--line); box-shadow: 0 24px 40px rgba(0,0,0,.18); }
+  .mnav .wrap { padding: 6px 0 22px; }
+  .mnav ul { list-style: none; }
+  .mnav ul a { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid var(--line); font-size: 20px; font-weight: 500; letter-spacing: -.01em; }
+  .mnav ul a::after { content: "↗"; color: var(--ember); }
+  .mnav .btn { width: 100%; margin-top: 18px; }
+  .top.menu-open { background: #fff; color: var(--ink); }
+
+  /* ---------- Hero (ForFuture) ---------- */
+  .hero { position: relative; min-height: 100vh; min-height: 100svh; color: #fff; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; padding: calc(72px + env(safe-area-inset-top, 0px) + clamp(40px, 7vw, 90px)) 0 0; isolation: isolate; background: #1a120d; }
+  .hero .bg { position: absolute; inset: 0; z-index: -2; }
+  .hero .bg img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 58%; animation: settle 2s cubic-bezier(.2,.8,.2,1) both; }
+  .hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(10,8,8,.82) 0%, rgba(10,8,8,.45) 48%, rgba(10,8,8,.15) 80%), linear-gradient(180deg, rgba(10,8,8,.55) 0%, rgba(10,8,8,0) 28%), linear-gradient(0deg, rgba(10,8,8,.6) 0%, rgba(10,8,8,0) 40%); }
+  @keyframes settle { from { transform: scale(1.08); } to { transform: none; } }
+  .hero .top-row { display: grid; grid-template-columns: minmax(0, 640px); gap: 26px; }
+  .hero .forge { font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: rgba(255,255,255,.78); }
+  .hero .forge b { color: var(--ember); }
+  .hero h1 { margin-top: 18px; font-weight: 400; font-size: clamp(42px, 5.6vw, 80px); line-height: 1.02; letter-spacing: -.035em; max-width: 11em; }
+  .hero h1 em { font-family: var(--serif); font-style: italic; font-weight: 400; color: #ffd2b5; letter-spacing: -.01em; }
+  .hero .side p { font-size: 16.5px; color: rgba(255,255,255,.86); max-width: 30em; }
+  .hero .side .btns { margin-top: 22px; }
+  .wordmark { position: relative; margin-top: clamp(40px, 6vw, 80px); line-height: .78; font-weight: 800; font-stretch: 112%; font-size: clamp(64px, 15.6vw, 250px); letter-spacing: -.02em; text-transform: uppercase; color: transparent; -webkit-text-stroke: 1.5px rgba(255,255,255,.55); white-space: nowrap; text-align: center; transform: translateY(6%); user-select: none; }
+  .wordmark span { color: rgba(255,255,255,.14); -webkit-text-stroke: 0; }
+
+  /* ---------- Intro (ForFuture) ---------- */
+  .intro .grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(30px, 6vw, 90px); align-items: center; margin-top: 28px; }
+  .intro .ph { border-radius: var(--r); overflow: hidden; aspect-ratio: 4 / 3.2; background: var(--stone); }
+  .intro .ph img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; filter: grayscale(1) contrast(1.08); transition: transform 1.2s cubic-bezier(.2,.8,.2,1), filter .8s; }
+  .intro .ph:hover img { transform: scale(1.05); filter: grayscale(0); }
+  .statement { font-weight: 400; font-size: clamp(22px, 2.3vw, 31px); line-height: 1.3; letter-spacing: -.02em; }
+  .statement .fade { color: #b9b4ac; }
+  .statement b { font-weight: 600; }
+  .stats { margin-top: 34px; display: grid; grid-template-columns: repeat(3, 1fr); }
+  .stats div { padding: 4px 18px; border-left: 2px solid var(--ember); }
+  .stats b { display: block; font-weight: 500; font-size: clamp(26px, 2.6vw, 38px); letter-spacing: -.03em; line-height: 1.1; }
+  .stats span { font-size: 12.5px; color: var(--grey); }
+
+  /* ---------- Pillars panel (ForLife) ---------- */
+  .forlife { background: var(--stone); }
+  .forlife .grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(30px, 7vw, 110px); align-items: center; }
+  .ringed { position: relative; max-width: 420px; width: 100%; margin-inline: auto; padding: 40px 30px; }
+  .ringed .ring { position: absolute; border: clamp(18px, 2.4vw, 28px) solid var(--ember); border-radius: 50%; aspect-ratio: 1; }
+  .ringed .ring.a { width: 62%; right: -6%; top: 2%; clip-path: inset(0 0 48% 50%); transition: transform 1.2s cubic-bezier(.2,.8,.2,1); }
+  .ringed .ring.b { width: 62%; left: -4%; bottom: 0; clip-path: inset(40% 52% 0 0); transition: transform 1.2s cubic-bezier(.2,.8,.2,1); }
+  .ringed:hover .ring.a { transform: rotate(14deg); }
+  .ringed:hover .ring.b { transform: rotate(-14deg); }
+  .ringed .photo { position: relative; aspect-ratio: 3 / 4; overflow: hidden; }
+  .ringed .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 72% 30%; filter: grayscale(1) contrast(1.1); }
+  .triad { font-weight: 400; font-size: clamp(44px, 6.2vw, 92px); line-height: 1.02; letter-spacing: -.045em; }
+  .triad span { display: block; }
+  .triad span::after { content: "."; color: var(--ember); }
+  .verse { margin-top: 30px; padding-left: 18px; border-left: 2px solid var(--ember); max-width: 32em; }
+  .verse p { font-family: var(--serif); font-style: italic; font-size: clamp(19px, 1.7vw, 23px); line-height: 1.4; }
+  .verse cite { display: block; margin-top: 8px; font-style: normal; font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ember-text); }
+  .forge-line { margin-top: 26px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--grey); }
+  .forge-line b { color: var(--ink); font-weight: 800; letter-spacing: .3em; }
+
+  /* ---------- Belief (talk show blocks) ---------- */
+  .believe { padding: 0; }
+  .believe .blocks { display: grid; grid-template-columns: 1fr 1fr; }
+  .believe .b1 { background: var(--ember-deep); color: #fff; padding: clamp(40px, 6vw, 80px) clamp(24px, 5vw, 70px); }
+  .believe .b2 { background: var(--ink); color: #fff; padding: clamp(40px, 6vw, 80px) clamp(24px, 5vw, 70px); display: flex; flex-direction: column; justify-content: space-between; gap: 30px; }
+  .believe small { font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+  .believe .b1 p { margin-top: 18px; font-size: clamp(22px, 2.3vw, 32px); line-height: 1.25; letter-spacing: -.02em; max-width: 18em; }
+  .believe .now { font-weight: 700; font-stretch: 85%; font-size: clamp(34px, 4.4vw, 62px); line-height: 1.08; letter-spacing: -.02em; text-transform: uppercase; }
+  .believe .now span { display: block; }
+  .believe .now span + span { margin-top: .08em; }
+  .believe .now span b { color: var(--ember); }
+  .believe .b2 p { color: #bdbab5; max-width: 30em; }
+  .gold { display: flex; align-items: center; gap: 14px; font-family: var(--serif); font-style: italic; font-size: clamp(20px, 2vw, 26px); color: #fff; }
+  .gold::before { content: ""; width: 40px; height: 2px; background: var(--ember); flex: none; }
+
+  /* ---------- Pillars numbered (talk show) ---------- */
+  .three { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 3vw, 40px); }
+  .three .p { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: baseline; padding-top: 22px; border-top: 1px solid var(--line); }
+  .three .no { font-weight: 300; font-size: clamp(40px, 4vw, 56px); line-height: .9; color: var(--ember); letter-spacing: -.04em; }
+  .three h3 { font-weight: 700; font-size: clamp(20px, 1.8vw, 24px); letter-spacing: -.02em; line-height: 1.1; }
+  .three p { margin-top: 8px; color: var(--grey); font-size: 15px; }
+  .head-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: clamp(36px, 5vw, 56px); }
+  .head-row .h-sec { margin-top: 14px; }
+
+  /* ---------- Programmes (ForFuture service rows) ---------- */
+  .programs { background: var(--stone); }
+  .rows { position: relative; margin-top: 10px; }
+  .row { position: relative; display: grid; grid-template-columns: 70px 1fr auto; gap: 18px; align-items: start; padding: 28px 22px; border-bottom: 1px solid var(--line); border-radius: var(--r); transition: background .35s, color .35s, border-color .35s; }
+  .row .n { font-size: 14px; font-weight: 600; color: var(--muted); padding-top: 8px; transition: color .35s; }
+  .row .tag { font-size: 11.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ember-text); transition: color .35s; }
+  .row h3 { margin-top: 6px; font-weight: 500; font-size: clamp(26px, 2.8vw, 38px); letter-spacing: -.03em; line-height: 1.05; }
+  .row p { margin-top: 10px; color: var(--grey); font-size: 15px; max-width: 46em; transition: color .35s; }
+  .row .cad { display: inline-flex; margin-top: 14px; padding: 4px 12px; border-radius: 999px; background: #fff; font-size: 12px; font-weight: 600; transition: background .35s, color .35s; }
+  .row .arrow { width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line); display: grid; place-items: center; transition: transform .35s, background .35s, border-color .35s, color .35s; }
+  .row .arrow svg { width: 17px; height: 17px; }
+  .row:hover, .row:focus-within { background: var(--ember-deep); color: #fff; border-color: transparent; }
+  .row:hover .n, .row:hover .tag, .row:hover p, .row:focus-within .n, .row:focus-within .tag, .row:focus-within p { color: rgba(255,255,255,.9); }
+  .row:hover .cad, .row:focus-within .cad { background: rgba(255,255,255,.18); color: #fff; }
+  .row:hover .arrow, .row:focus-within .arrow { transform: rotate(45deg); background: #fff; border-color: #fff; color: var(--ember); }
+  .peek { position: absolute; z-index: 3; width: 240px; aspect-ratio: 4 / 3; border-radius: 12px; overflow: hidden; pointer-events: none; opacity: 0; transform: translate(-50%, -50%) scale(.85) rotate(-3deg); transition: opacity .3s, transform .4s cubic-bezier(.2,.8,.2,1); box-shadow: 0 24px 50px rgba(0,0,0,.28); }
+  .peek.on { opacity: 1; transform: translate(-50%, -50%) scale(1) rotate(-3deg); }
+  .peek img { width: 100%; height: 100%; object-fit: cover; }
+
+  /* ---------- Who it's for (talk show dark) ---------- */
+  .for { background: var(--ink); color: #fff; padding: 0; overflow: hidden; }
+  .for .grid { display: grid; grid-template-columns: 1fr 1fr; align-items: stretch; min-height: 580px; }
+  .for .txt { padding: clamp(56px, 8vw, 100px) 0; padding-right: clamp(20px, 4vw, 60px); display: flex; flex-direction: column; justify-content: center; }
+  .for .pill { color: var(--ember); }
+  .for h2 { margin-top: 18px; font-weight: 500; font-size: clamp(34px, 4.2vw, 58px); line-height: 1.04; letter-spacing: -.035em; }
+  .for h2 b { color: var(--ember); font-weight: 500; }
+  .for .txt > p { margin-top: 18px; color: #bdbab5; max-width: 30em; font-size: 16.5px; }
+  .for .btns { margin-top: 28px; }
+  .for .pic { position: relative; min-height: 420px; }
+  .for .pic img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 70% 25%; filter: grayscale(1) contrast(1.15) brightness(.9); }
+  .for .pic::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, var(--ink) 0%, rgba(15,15,15,0) 35%), linear-gradient(0deg, rgba(15,15,15,.75) 0%, rgba(15,15,15,0) 40%); }
+  .for .who { position: absolute; z-index: 2; left: clamp(20px, 3vw, 40px); bottom: clamp(20px, 3vw, 36px); }
+  .for .who b { display: block; font-weight: 500; font-size: clamp(22px, 2.2vw, 30px); letter-spacing: -.02em; }
+  .for .who span { font-size: 14px; color: #cfcbc5; }
+  .for .who a { color: var(--ember); text-decoration: underline; text-underline-offset: 3px; }
+
+  /* ---------- Gallery (Give a Future) ---------- */
+  .gallery { display: grid; grid-template-columns: 1.4fr 1fr 1.2fr; grid-template-rows: 220px 220px; gap: 14px; margin-top: clamp(32px, 4vw, 48px); }
+  .gallery > * { border-radius: var(--r); overflow: hidden; position: relative; }
+  .gallery img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.08); transition: transform 1s cubic-bezier(.2,.8,.2,1), filter .6s; }
+  .gallery > div:hover img { transform: scale(1.05); filter: grayscale(.2); }
+  .gallery .tall { grid-row: span 2; }
+  .gallery .word { display: flex; align-items: flex-end; padding: 22px; background: var(--ember-deep); color: #fff; font-weight: 700; font-stretch: 85%; font-size: clamp(30px, 3.2vw, 46px); text-transform: uppercase; letter-spacing: -.02em; line-height: .95; transition: background .3s; }
+  .gallery .word.dark { background: var(--ink); }
+  .gallery .word.dark b { color: var(--ember); font-weight: 700; }
+  .gallery .word:hover { background: var(--ember-deeper); }
+  .gallery .word.dark:hover { background: #262626; }
+
+  /* ---------- Join (Give a Future contact) ---------- */
+  .join .grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(30px, 6vw, 90px); align-items: start; }
+  .join .h-sec { margin-top: 14px; }
+  .join .copy p { margin-top: 14px; color: var(--grey); }
+  .join .copy ul { margin-top: 22px; list-style: none; display: grid; gap: 10px; }
+  .join .copy li { display: flex; gap: 12px; font-size: 15px; }
+  .join .copy li::before { content: ""; width: 8px; height: 8px; margin-top: 8px; border-radius: 50%; background: var(--ember); flex: none; }
+  .pill { color: var(--ink); }
+  form { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  form label { display: grid; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--grey); }
+  form .full { grid-column: 1 / -1; }
+  form input, form textarea, form select { width: 100%; min-height: 50px; padding: 12px 16px; border-radius: 12px; border: 1px solid transparent; background: var(--stone); font-size: 15px; transition: border-color .2s, background .2s; }
+  form textarea { min-height: 120px; resize: vertical; }
+  form input:focus, form textarea:focus, form select:focus { outline: none; border-color: var(--ember); background: #fff; }
+  form .btn { justify-self: start; margin-top: 4px; }
+  form .note { grid-column: 1 / -1; font-size: 13px; color: var(--grey); }
+  form .err { grid-column: 1 / -1; font-size: 13.5px; color: var(--ember-dark); font-weight: 600; min-height: 1em; }
+
+  /* ---------- Footer (Give a Future) ---------- */
+  footer { background: var(--ember-deep); color: #fff; padding: clamp(56px, 7vw, 80px) 0 calc(env(safe-area-inset-bottom, 0px) + 26px); }
+  footer .grid { display: grid; grid-template-columns: 1.3fr .8fr 1fr; gap: clamp(28px, 5vw, 60px); align-items: start; }
+  footer .logo { width: 190px; height: 31px; color: #fff; }
+  footer .tagline { margin-top: 16px; font-family: var(--serif); font-style: italic; font-size: 22px; line-height: 1.3; max-width: 16em; }
+  footer .fh { font-size: 11.5px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 12px; }
+  footer ul { list-style: none; display: grid; gap: 8px; font-size: 15px; }
+  footer ul a { transition: opacity .2s; }
+  footer ul a:hover { opacity: 1; text-decoration: underline; text-underline-offset: 3px; }
+  footer .cta p { font-size: 15px; margin-bottom: 16px; }
+  footer .base { margin-top: clamp(40px, 6vw, 64px); padding-top: 20px; border-top: 1px solid rgba(255,255,255,.3); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 13px; }
+  footer .base a { text-decoration: underline; text-underline-offset: 3px; }
+
+  /* ---------- Motion ---------- */
+  .rv { opacity: 0; transform: translateY(28px); transition: opacity .85s cubic-bezier(.2,.8,.2,1), transform .85s cubic-bezier(.2,.8,.2,1); transition-delay: var(--rd, 0ms); }
+  .rv.in { opacity: 1; transform: none; }
+  .hero .enter { animation: rise .9s cubic-bezier(.2,.8,.2,1) both; }
+  .hero .enter.d1 { animation-delay: .15s; } .hero .enter.d2 { animation-delay: .28s; } .hero .enter.d3 { animation-delay: .42s; } .hero .enter.d4 { animation-delay: .6s; }
+  .wordmark.enter { animation: wordIn 1.4s cubic-bezier(.2,.8,.2,1) .5s both; }
+  @keyframes rise { from { opacity: .01; transform: translateY(26px); } to { opacity: 1; transform: none; } }
+  @keyframes wordIn { from { opacity: .01; transform: translateY(40%); } to { opacity: 1; transform: translateY(6%); } }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 980px) {
+    .nav { display: none; }
+    .burger { display: block; }
+    .three { grid-template-columns: 1fr; }
+    .gallery { grid-template-columns: 1fr 1fr; grid-template-rows: 200px 200px 200px; }
+    .gallery .tall { grid-row: span 2; }
+    footer .grid { grid-template-columns: 1fr 1fr; }
+    footer .grid > :first-child { grid-column: 1 / -1; }
+  }
+  @media (min-width: 981px) { .mnav { display: none !important; } }
+  @media (max-width: 860px) {
+    .hero .bg img { object-position: 50% 62%; }
+    .hero::after { background: linear-gradient(180deg, rgba(10,8,8,.7) 0%, rgba(10,8,8,.45) 45%, rgba(10,8,8,.7) 100%); }
+    .hero .top-row { grid-template-columns: 1fr; }
+    .intro .grid, .forlife .grid, .join .grid { grid-template-columns: 1fr; }
+    .believe .blocks { grid-template-columns: 1fr; }
+    .for .grid { grid-template-columns: 1fr; }
+    .for .txt { padding-right: 0; padding-bottom: 40px; }
+    .for .pic { min-height: 440px; margin: 0 calc(-1 * clamp(20px, 4vw, 56px)); }
+    .for .pic::before { background: linear-gradient(180deg, var(--ink) 0%, rgba(15,15,15,0) 30%), linear-gradient(0deg, rgba(15,15,15,.8) 0%, rgba(15,15,15,0) 45%); }
+    .ringed { max-width: 340px; }
+    .row { grid-template-columns: 1fr auto; }
+    .row .n { display: none; }
+    .peek { display: none; }
+  }
+  @media (max-width: 600px) {
+    .wrap { width: calc(100% - 40px); }
+    .btns { flex-direction: column; align-items: stretch; }
+    main .btn, footer .btn { width: 100%; min-height: 50px; font-size: 15px; }
+    .stats { grid-template-columns: 1fr 1fr 1fr; }
+    .stats div { padding: 2px 10px; }
+    .stats span { font-size: 11.5px; }
+    .gallery { grid-template-columns: 1fr 1fr; grid-template-rows: 160px 160px 160px; gap: 10px; }
+    .gallery .word { font-size: 26px; padding: 16px; }
+    form { grid-template-columns: 1fr; }
+    form .btn { justify-self: stretch; }
+    footer .grid { grid-template-columns: 1fr; }
+    .row { padding: 22px 16px; }
+    .row .arrow { width: 40px; height: 40px; }
+    .wordmark { -webkit-text-stroke-width: 1px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    .rv { opacity: 1; transform: none; }
+    .wordmark { transform: translateY(6%); }
+  }
+</style>
+<link rel="preload" as="image" href="/img/hall.webp" fetchpriority="high">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+</svg>
+
+<header class="top" id="top">
+  <div class="wrap bar">
+    <a class="logo" href="#home" aria-label="The Crucible, home"></a>
+    <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pillars">Pillars</a></li>
+        <li><a href="#programs">Programmes</a></li>
+        <li><a href="#for">Who it's for</a></li>
+      </ul>
+      <a class="btn ember" href="#join">Join the community</a>
+    </nav>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+  <div class="mnav" id="mnav" hidden>
+    <div class="wrap">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pillars">Pillars</a></li>
+        <li><a href="#programs">Programmes</a></li>
+        <li><a href="#for">Who it's for</a></li>
+      </ul>
+      <a class="btn ember" href="#join">Join the community</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="bg" aria-hidden="true"><img data-img="hall" alt=""></div>
+  <div class="wrap">
+    <div class="top-row">
+      <div>
+        <p class="forge enter d1"><b>F.O.R.G.E</b> · Faithful Ones Raised, Grounded &amp; Equipped</p>
+        <h1 class="enter d2">Where pressure becomes <em>progress.</em></h1>
+      </div>
+      <div class="side enter d3">
+        <p>A growth community for youth who want to build themselves and make real impact. This is not church. This is a training ground.</p>
+        <div class="btns">
+          <a class="btn ember" href="#join">Join the community <svg><use href="#i-arrow"/></svg></a>
+          <a class="btn ghost-w" href="#about">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wordmark enter" aria-hidden="true">Cruc<span>ible</span></div>
+</section>
+
+<!-- ================= INTRO ================= -->
+<section class="intro" id="about">
+  <div class="wrap">
+    <span class="pill rv">Introduction</span>
+    <div class="grid">
+      <div class="ph rv"><img data-img="forge" alt="A blacksmith hammering glowing metal on an anvil"></div>
+      <div>
+        <p class="statement rv" id="statement">We believe young people were not made to just scroll, follow trends, and wait for “later.” <b>You can grow now. You can lead now. You can make a difference now.</b> <span class="fade">So we created a space where pressure becomes progress. Like gold in fire, we get tested, trained, and sharpened until we come out better.</span></p>
+        <div class="stats rv">
+          <div><b>3</b><span>Pillars of growth</span></div>
+          <div><b>Weekly</b><span>The Minded sessions</span></div>
+          <div><b>Monthly</b><span>The Forge sessions</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRIAD + VERSE (ForLife) ================= -->
+<section class="forlife" id="pillars">
+  <div class="wrap grid">
+    <div class="ringed rv" aria-hidden="true">
+      <span class="ring a"></span><span class="ring b"></span>
+      <div class="photo"><img data-img="speak" alt=""></div>
+    </div>
+    <div>
+      <div class="triad rv"><span>Self-building</span><span>Leadership</span><span>Impact</span></div>
+      <blockquote class="verse rv">
+        <p>“Don’t let anyone look down on you because you are young, but set an example in speech, in conduct, in love, in faith and in purity.”</p>
+        <cite>1 Timothy 4:12</cite>
+      </blockquote>
+      <div class="forge-line rv"><b>F.O.R.G.E</b><span>Faithful Ones Raised, Grounded &amp; Equipped</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BELIEF BLOCKS (talk show) ================= -->
+<section class="believe" aria-label="What we believe">
+  <div class="blocks">
+    <div class="b1">
+      <small>What we believe</small>
+      <p class="rv">Young people were not made to just scroll, follow trends, and wait for “later.”</p>
+    </div>
+    <div class="b2">
+      <div class="now rv"><span>Grow <b>now.</b></span><span>Lead <b>now.</b></span><span>Make a difference <b>now.</b></span></div>
+      <div class="gold rv">Like gold in fire.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= THREE PILLARS (talk show numbers) ================= -->
+<section>
+  <div class="wrap">
+    <div class="head-row">
+      <div><span class="pill rv">Our focus</span><h2 class="h-sec rv">Three things we build in you</h2></div>
+      <p class="lede rv">Be solid on the inside before you try to change anything on the outside.</p>
+    </div>
+    <div class="three">
+      <div class="p rv"><span class="no">01</span><div><h3>Self-building</h3><p>Master your mind, build discipline, manage your time and grow confidence.</p></div></div>
+      <div class="p rv"><span class="no">02</span><div><h3>Leadership</h3><p>Lead yourself, influence your friends, communicate with clarity and stand for what’s right.</p></div></div>
+      <div class="p rv"><span class="no">03</span><div><h3>Impact</h3><p>Turn your gifts into value for your families, schools and communities.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROGRAMMES (ForFuture rows) ================= -->
+<section class="programs" id="programs">
+  <div class="wrap">
+    <div class="center">
+      <span class="pill rv">Programmes</span>
+      <h2 class="h-sec rv" style="margin-top:14px">How we train</h2>
+      <p class="lede rv" style="margin-top:12px">Three rhythms, one goal: come out of the fire better than you went in.</p>
+    </div>
+    <div class="rows" id="rows" style="margin-top:clamp(32px,4vw,48px)">
+      <a class="row rv" href="#join" data-peek="forge">
+        <span class="n">01</span>
+        <div>
+          <span class="tag">Self-building · CRUCIBLE · The Minded</span>
+          <h3>The Minded</h3>
+          <p>Self-building comes first. We meet weekly to learn practical habits, mindset tools, and ways to stay focused in a world full of distractions. Master your mind, build discipline, manage your time, and grow confidence. The goal is simple: be solid on the inside before you try to change anything on the outside.</p>
+          <span class="cad">Weekly</span>
+        </div>
+        <span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="row rv" href="#join" data-peek="hall_sm">
+        <span class="n">02</span>
+        <div>
+          <span class="tag">Leadership · CRUCIBLE · The Forge</span>
+          <h3>The Forge</h3>
+          <p>We don’t wait till we’re older to lead. You’ll learn how to lead yourself, influence your friends, communicate with clarity, and stand for what’s right, in school, online, and everywhere. Our monthly session is where we talk about pressure, failure, and tough seasons, and learn how to stay strong, bounce back, and turn tests into testimonies.</p>
+          <span class="cad">Monthly</span>
+        </div>
+        <span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="row rv" href="#join" data-peek="me">
+        <span class="n">03</span>
+        <div>
+          <span class="tag">Impact · CRUCIBLE · Vessels of Honor</span>
+          <h3>Vessels of Honor</h3>
+          <p>Impact is the result. Growth means nothing if it doesn’t touch other people. We build real-life skills: communication, creativity, money, problem-solving, and personal brand, and learn how to take our gifts and turn them into value for our families, schools, and communities.</p>
+          <span class="cad">Real-life skills</span>
+        </div>
+        <span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <div class="peek" id="peek" aria-hidden="true"><img alt=""></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHO IT'S FOR (talk show dark) ================= -->
+<section class="for" id="for">
+  <div class="wrap grid">
+    <div class="txt">
+      <span class="pill rv">Who it’s for</span>
+      <h2 class="rv">For young people who are <b>hungry to grow.</b></h2>
+      <p class="rv">If you’re tired of just existing and you’re ready to build yourself, sharpen your skills, and leave a mark, you’re in the right place.</p>
+      <div class="btns rv"><a class="btn ember" href="#join">I’m ready <svg><use href="#i-arrow"/></svg></a></div>
+    </div>
+    <div class="pic rv">
+      <img data-img="speak" alt="Etieno Douglas speaking on stage">
+      <div class="who"><b>Etieno Douglas</b><span>Founder, THE CRUCIBLE · <a href="https://etienodouglas.online" target="_blank" rel="noopener">etienodouglas.online</a></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY (Give a Future) ================= -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="center"><span class="pill rv">Inside the Crucible</span><h2 class="h-sec rv" style="margin-top:14px">Tested. Trained. Sharpened.</h2></div>
+    <div class="gallery">
+      <div class="tall rv"><img data-img="forge" alt="Hammer striking glowing metal on an anvil" style="object-position:40% 50%"></div>
+      <div class="word rv">Tested</div>
+      <div class="rv"><img data-img="hall_sm" alt="A packed room listening to a speaker on stage" style="object-position:50% 70%"></div>
+      <div class="word dark rv">Trained<b>.</b></div>
+      <div class="rv"><img data-img="me" alt="Founder Etieno Douglas" style="object-position:45% 30%"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= JOIN (Give a Future contact) ================= -->
+<section class="join" id="join" style="padding-top:0">
+  <div class="wrap grid">
+    <div class="copy rv">
+      <span class="pill">Join us</span>
+      <h2 class="h-sec">Ready to step into the fire?</h2>
+      <p>THE CRUCIBLE is for young people who are hungry to grow. Tell us a little about yourself and we’ll get you into the next session.</p>
+      <ul>
+        <li>Weekly: CRUCIBLE · The Minded</li>
+        <li>Monthly: CRUCIBLE · The Forge</li>
+        <li>Skills: CRUCIBLE · Vessels of Honor</li>
+      </ul>
+    </div>
+    <form id="joinForm" class="rv" novalidate>
+      <label>First name<input name="first" autocomplete="given-name" required></label>
+      <label>Last name<input name="last" autocomplete="family-name" required></label>
+      <label>Phone or WhatsApp<input name="phone" type="tel" autocomplete="tel"></label>
+      <label>Email<input name="email" type="email" autocomplete="email" required></label>
+      <label class="full">I’m interested in
+        <select name="interest">
+          <option>All of it</option>
+          <option>The Minded (weekly)</option>
+          <option>The Forge (monthly)</option>
+          <option>Vessels of Honor (skills)</option>
+          <option>Partnering or volunteering</option>
+        </select>
+      </label>
+      <label class="full">Why do you want to join?<textarea name="message" placeholder="Tell us where you are and where you want to grow."></textarea></label>
+      <p class="err" id="formErr" role="alert"></p>
+      <button class="btn ember" type="submit">Send my application <svg><use href="#i-arrow"/></svg></button>
+      <p class="note">This opens your email app with your details filled in. Just press send.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <span class="logo" role="img" aria-label="The Crucible"></span>
+        <p class="tagline">Where pressure becomes progress.</p>
+      </div>
+      <div>
+        <h2 class="fh">Explore</h2>
+        <ul><li><a href="#about">About</a></li><li><a href="#pillars">Pillars</a></li><li><a href="#programs">Programmes</a></li><li><a href="#join">Join</a></li></ul>
+      </div>
+      <div class="cta">
+        <h2 class="fh">Join the community</h2>
+        <p>Weekly sessions, monthly forge, real-life skills.</p>
+        <a class="btn white" href="#join">Join now <svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="base">
+      <span>© 2026 THE CRUCIBLE. F.O.R.G.E: Faithful Ones Raised, Grounded &amp; Equipped.</span>
+      <span>Founded by <a href="https://etienodouglas.online" target="_blank" rel="noopener">Etieno Douglas</a> · Hero photo: <a href="https://unsplash.com/@pellaes" target="_blank" rel="noopener">Alexandre Pellaes on Unsplash</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const IMG = {"speak": "/img/speak.webp", "forge": "/img/crucible_brand.webp", "me": "/img/me.webp", "logo": "/img/logo.webp", "hall": "/img/hall.webp", "hall_sm": "/img/hall_sm.webp"};
+const CONTACT_EMAIL = "douglasetieno9@gmail.com";
+(function () {
+  const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  document.documentElement.style.setProperty("--logo", `url(${IMG.logo})`);
+  $$("img[data-img]").forEach(i => { if (!i.closest(".hero")) i.loading = "lazy"; i.decoding = "async"; i.src = IMG[i.dataset.img]; });
+
+  /* Header turns solid after the hero */
+  const top = $("#top"), hero = $(".hero");
+  const tone = () => top.classList.toggle("solid", window.scrollY > hero.offsetHeight - 80);
+  window.addEventListener("scroll", tone, { passive: true }); tone();
+
+  /* Mobile menu */
+  const burger = $(".burger"), mnav = $("#mnav");
+  const setMenu = open => { burger.setAttribute("aria-expanded", String(open)); burger.setAttribute("aria-label", open ? "Close menu" : "Open menu"); mnav.hidden = !open; top.classList.toggle("menu-open", open); };
+  burger.addEventListener("click", () => setMenu(burger.getAttribute("aria-expanded") !== "true"));
+  mnav.addEventListener("click", e => { if (e.target.closest("a")) setMenu(false); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") setMenu(false); });
+
+  /* Scroll reveals (set up when idle; content shows normally without them) */
+  const RM = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (RM) $$(".rv").forEach(e => e.classList.remove("rv"));
+  else {
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -6% 0px", threshold: .08 });
+    $$(".rv").forEach(el => { const sibs = [...el.parentElement.children].filter(c => c.classList.contains("rv")); el.style.setProperty("--rd", Math.min(sibs.indexOf(el), 5) * 80 + "ms"); io.observe(el); });
+  }
+
+  /* Programme rows: a photo follows the cursor on hover */
+  const rows = $("#rows"), peek = $("#peek"), peekImg = peek.querySelector("img");
+  if (!RM && window.matchMedia("(hover: hover)").matches) {
+    $$(".row", rows).forEach(r => {
+      r.addEventListener("pointerenter", () => { peekImg.src = IMG[r.dataset.peek]; peek.classList.add("on"); });
+      r.addEventListener("pointerleave", () => peek.classList.remove("on"));
+      r.addEventListener("pointermove", e => { const b = rows.getBoundingClientRect(); peek.style.left = (e.clientX - b.left + 150) + "px"; peek.style.top = (e.clientY - b.top) + "px"; });
+    });
+  }
+
+  /* Join form: validates, then opens the visitor's email app with the details filled in */
+  $("#joinForm").addEventListener("submit", e => {
+    e.preventDefault();
+    const f = e.target, d = Object.fromEntries(new FormData(f)), err = $("#formErr");
+    if (!d.first.trim() || !d.last.trim()) { err.textContent = "Please add your first and last name."; return; }
+    if (!/^\S+@\S+\.\S+$/.test(d.email)) { err.textContent = "Please add a valid email address."; return; }
+    err.textContent = "";
+    const body = `Name: ${d.first} ${d.last}\nPhone/WhatsApp: ${d.phone || "-"}\nEmail: ${d.email}\nInterested in: ${d.interest}\n\nWhy I want to join:\n${d.message || "-"}`;
+    window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Joining THE CRUCIBLE: " + d.first + " " + d.last)}&body=${encodeURIComponent(body)}`;
+  });
+})();
+</script>
+</body>
+</html>

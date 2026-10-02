@@ -1,0 +1,23 @@
+{
+  "name": "THE CRUCIBLE",
+  "short_name": "Crucible",
+  "description": "A growth community for youth who want to build themselves and make real impact. Self-building, leadership and impact. This is not church. This is a training ground.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#c94f12",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
